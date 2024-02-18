@@ -18,7 +18,7 @@ if use_digits:
 if use_punctuation:
     characters += string.punctuation
 if use_special:
-    characters +=("! @ # $ % ^ & * ( ) _")
+    characters +=("! @ # $ % ^ & *  _")
 
 if not characters:
     print("Please select at least one character type.")
